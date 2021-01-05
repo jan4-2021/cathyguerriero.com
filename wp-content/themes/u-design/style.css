@@ -1,0 +1,622 @@
+/*
+Theme Name: U-Design
+Theme URI: http://themeforest.net/item/udesign-wordpress-theme/253220?ref=internq7
+Description: A slick, powerful and clean theme.
+Author: Andon
+Author URI: http://themeforest.net/user/internq7/portfolio?ref=internq7
+Version: 1.5.1
+License: Located in 'licensing' folder
+License URI: Located in 'licensing' folder
+*/
+
+/*
+    Do not remove any of the commented text above as it is used by the theme for proper function!
+
+    All the themes' CSS files are located under the 'styles/' sub-folder...
+
+    If you would like to use this file to add any custom CSS, you'll need to enable it first  
+    from the theme's "General Options" section.
+    Please note: After enabling the use of this file, you will not see any change here, 
+    feel free to add your custom CSS below.
+    On the other hand, if you need access to the theme's main style sheet, you will 
+    need FTP client to access it, is it located in: "styles/style1/css/style.css"
+*/
+
+
+#navigation-menu {
+    
+	font-size:16px;
+	font-weight:bold;
+        background: none repeat scroll 0 0 #FFFFFF;
+	margin-right:18px;
+}
+
+#navigation-menu ul.sf-menu > li > a {
+    
+	font-family: arial; sans-serif;
+
+}
+
+.sub-menu {
+	font-size: 12px;
+	font-style: none !important; 
+}
+
+/* Changing space around slider-cycle1 */
+
+#c1-header .c1-slideshow {
+	height: 345px;
+	top:0px;
+	margin-left:0px;
+	margin-top:-30px;
+}
+#c1-header #header-content {
+    margin-top: -10px;
+}
+
+#c1-nav {
+	display:none;
+}
+#c1-resumeButton {
+	display: none;
+}
+
+
+#c1-pauseButton {
+	display: none;
+} 
+
+#page-content-title #page-title h1,
+#page-content-title #page-title h2,
+#page-content-title #page-title h3, {
+	padding-top:-10px;
+	font-weight:bold;
+}
+
+/* custom buttons for short codes */
+
+.medium.custom-button span, .medium.custom-button span:visited {    
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    text-decoration: none;
+    width: 108px;
+    text-transform:uppercase;
+}
+
+.large.custom-button span, .large.custom-button span:visited {
+    font-size: 18px;
+    padding: 20px 14px;
+    width: 240px;
+    text-transform:uppercase;
+}
+
+.align-btn-left {
+    float: none;
+}
+
+.wp-tab-title {
+	background: #ffd700;
+}
+
+.wp-tab-content {
+	background: #ffd700;
+}
+
+.wpui-light .ui-tabs-panel {
+	background: #ffd700;
+}
+
+
+
+
+h1 {
+	font-weight: bold;
+	color:#295676;
+}
+
+
+
+h3.cont_col_1_title {
+	color: #295676;
+}
+h3.cont_col_2_title {
+	color: #295676;
+}
+h3.cont_col_3_title {
+	color: #295676;
+}
+
+
+h1 {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	font-size:2.5em !important;
+	text-transform:lowercase;
+	
+}
+
+#page-content-title #page-title h1, #page-content-title #page-title h2, #page-content-title #page-title h3, #page-content-title #page-title .single-post-categories {
+	font-size: 2.5em !important;
+}
+
+h2 {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+
+}
+h3 {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	font-size:2em !important;
+	text-transform:lowercase;
+	
+}
+
+h3.bottom-col-title {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	font-size:2em !important;
+	text-transform:lowercase;
+}
+
+h3.widgettitle {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	font-size:2em !important;
+	text-transform:lowercase;
+}
+
+#sidebarSubnav h3 {
+
+font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	font-size:2em !important;
+	text-transform:lowercase;
+}
+h4 {
+	font-family:'Old Standard TT',Georgia,serif;
+	font-style:italic;
+	
+}
+
+
+/* SIGNUP FORMS */
+
+#contact{
+	list-style:none;
+	margin:0;
+}
+#contact li{
+	float: left;
+    height: 48px;
+	margin:0 0 20px;
+    position: relative;
+    width: 510px;
+}
+#contact li .text{
+	background: #5895C1;
+	padding:5px 10px 5px 0;
+	position:absolute;
+	z-index:100;
+	min-width:85px;
+	border-bottom-right-radius: 1px;
+	-moz-border-radius-bottomright:1px;
+	-webkit-border-bottom-right-radius:1px;
+	border-top-left-radius: 1px;
+	-moz-border-radius-topleft:1px;
+	-webkit-border-top-left-radius:1px;
+	text-indent: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	border: solid 2px #999999;
+}
+#contact li .required{
+	position:absolute;
+	right:10px;
+	top:5px;
+	z-index:100;
+	color:#5895C1;
+}
+#contact li .wpcf7-form-control-wrap{
+	position: absolute;
+	
+}
+#contact li .wpcf7-form-control-wrap input, #contact li .wpcf7-form-control-wrap textarea{
+	background:#fff;
+	border:solid 2px #999999;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	width: 424px;
+	z-index:100;
+	margin:0;
+	height: 30px;
+	margin-left: 97px;
+	
+}
+#contact li .wpcf7-form-control-wrap input:focus, #contact li .wpcf7-form-control-wrap textarea:focus{
+	background:#dccdc
+}
+#contact li .wpcf7-form-control-wrap textarea{
+	line-height: 28px;
+    padding: 10px;
+	width: 424;
+	height:200px;
+}
+
+#contact li .wpcf7-textarea { 
+	width: 424 px;
+
+}
+#contact li#message{
+	min-height:220px;
+	min-width: 424px;
+
+}
+#contact li#submit input{
+	color:#fff;
+	text-decoration:none;
+	margin:10px 30px 0 0;
+	background:#5895C1;
+	border-radius:1px;
+	display:block;
+	padding:10px 25px;
+	text-align:center;
+}
+#contact li#submit input:hover{
+	background:#999999;
+	border-radius:1px;
+	cursor:pointer;
+}
+div.wpcf7-validation-errors {
+    clear: left;
+}
+
+/* TOP AREA EMAIL SIGNUP */
+
+#contact2{
+	list-style:none;
+	margin-right:25px;
+	margin-top: 0px;
+}
+#contact2 li{
+	float: left;
+    height: 48px;
+	margin:0 0 20px;
+    position: relative;
+    width: 288px;
+}
+#contact2 li .text2{
+	background: #5895C1;
+	padding:5px 0px 5px 10px;
+	position:absolute;
+	z-index:100;
+	min-width:70px;
+	border-bottom-right-radius: 2px;
+	-moz-border-radius-bottomright:2px;
+	-webkit-border-bottom-right-radius:2px;
+	border-top-left-radius: 2px;
+	-moz-border-radius-topleft:2px;
+	-webkit-border-top-left-radius:2px;
+	border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomleft:2px;
+	-webkit-border-bottom-left-radius:2px;
+	text-indent: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: helvetica; arial; sans-serif;
+	letter-spacing: 1.5px;
+	border: solid 2px #5895C1;
+}
+#contact2 li .required2{
+	position:absolute;
+	right:10px;
+	top:5px;
+	z-index:100;
+	color:#5895C1;
+}
+#contact2 li .wpcf7-form-control-wrap{
+	position: absolute;
+	
+}
+#contact2 li .wpcf7-form-control-wrap input, #contact li .wpcf7-form-control-wrap textarea{
+	background:#fff;
+	border:solid 2px #5895C1;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	width: 212px;
+	z-index:100;
+	margin:0;
+	height: 30px;
+	margin-left: 82px;
+	
+}
+#contact2 li .wpcf7-form-control-wrap input:focus, #contact li .wpcf7-form-control-wrap textarea:focus{
+	background:#dccdc
+}
+#contact2 li .wpcf7-form-control-wrap textarea{
+	line-height: 28px;
+    padding: 10px;
+	height:200px;
+}
+#contact2 li#message{
+	min-height:220px;
+}
+#contact2 li#submit2 input{
+	color:#fff;
+	text-decoration:none;
+	margin:10px 30px 0 0;
+	background:#5895C1;
+	border-radius:10px;
+	display:block;
+	padding:10px 25px;
+	text-align:center;
+}
+#contact li#submit2 input:hover{
+	background:#f15a24;
+	border-radius:10px;
+	cursor:pointer;
+}
+div.wpcf7-validation-errors {
+    clear: left;
+}
+
+.wpcf7-response-output {
+display:none !important;
+}
+
+/* PAGE BACKGROUND WRAPPERS */
+
+.page-background-blue {
+	background: solid;
+	background-color: #5895C1;
+	padding: 10px 15px 10px 15px;
+	color: #ffffff !important;
+}
+
+.page-background-blue a {
+	color:#ffffff;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.page-background {
+	background: solid;
+	background-color: #999999;
+	padding: 10px 15px 10px 15px;
+	color: #ffffff !important;
+}
+
+.page-background a {
+	color:#ffffff;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.page-background-white {
+	background: solid;
+	background-color: #ffffff;	
+}
+
+.page-background a {
+	color:#5895C1;
+	font-weight:bold;
+	font-style:italic;
+}
+
+/* POSTS AND POSTS FEED */
+
+.news em {
+	text-transform:uppercase;
+	font-size:10px;
+	color:#333333;
+	font-style:none !important;
+}
+.teaser-title {
+	font-weight:bold;
+}
+.teaser-content {
+	color:#666666;
+	text-transform:uppercase;
+	font-size:0.8em !important;
+}
+
+.teaser-content em {
+	color:#333333;
+	font-weight:bold;
+}
+
+/* BUTTONS */
+
+.donatebutton {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2012/08/donate2.png) no-repeat left top;
+	height: 60px;
+	width: 280px;
+}
+.donatebutton:hover {
+	background-position: 0 -60px;
+}
+.donatebutton:active {
+	background-position: 0 -120px;
+}
+
+.volunteerbutton {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2012/08/volunteer2.png) no-repeat left top;
+	height: 60px;
+	width: 280px;
+}
+.volunteerbutton:hover {
+	background-position: 0 -60px;
+}
+.volunteerbutton:active {
+	background-position: 0 -120px;
+}
+
+.keepintouchbutton {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2012/08/keepintouchbutton.png) no-repeat left top;
+	height: 60px;
+	width: 280px;
+}
+.keepintouchbutton:hover {
+	background-position: 0 -60px;
+}
+.keepintouchbutton:active {
+	background-position: 0 -120px;
+}
+
+.keepintouchbanner {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2013/06/tweet.png) no-repeat left top;
+	height: 60px;
+	width: 487px;
+	margin-left:-10px;
+	margin-top:-40px;
+}
+.keepintouchbanner:hover {
+	background-position: 0 -60px;
+}
+.keepintouchbanner:active {
+	background-position: 0 -120px;
+}
+
+.keepintouchbanner1 {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2013/06/facebook.png) no-repeat left top;
+	height: 60px;
+	width: 453px;
+	margin-left: 478px;
+	margin-top: -60px;
+}
+.keepintouchbanner1:hover {
+	background-position: 0 -60px;
+}
+.keepintouchbanner1:active {
+	background-position: 0 -120px;
+}
+
+
+/* keep in touch page */
+
+#facebook {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2012/08/likeus.png) no-repeat left top;
+	height: 100px;
+	width: 600px;
+}
+
+
+#facebook:hover {
+	background-position: 0 -100px;
+}
+#facebook:active {
+	background-position: 0 -200px;
+}
+
+#twitter {
+	background: url(/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2012/08/followus2.png) no-repeat left top;
+	height: 100px;
+	width: 600px;
+}
+#twitter:hover {
+	background-position: 0 -100px;
+}
+#twitter:active {
+	background-position: 0 -200px;
+}
+
+/* LAYOUT ISSUE FIXES */
+
+#home-page-content {
+	margin-top:-100px;
+}
+
+#before-content {
+	margin-bottom:0px;
+}
+
+.no-breadcrumbs-padding { 
+	padding:0px; }
+
+
+#page-content {
+	margin-top:-10px;
+}
+
+#content-container {
+	padding:0px !important;
+}
+
+.connect_widget td.connect_widget_vertical_center {
+	padding-bottom:2px;
+}#email{	border: 2px solid #5e94c6;}
+
+
+#bottom_2 .column-content-wrapper div
+{
+	margin-top: 15px;
+	margin-bottom: -4px;
+}
+
+
+#bottom_2 .column-content-wrapper div ul
+{
+	margin-top: -43px !important;
+}
+
+
+.simple_overlay
+{
+	background-image: url('https://web.archive.org/web/20130824131752im_/http://cathyguerriero.com/wp-content/uploads/2013/06/var-2_light.png') !important;
+}
+
+
+#lightbox 
+{  
+	display:none;  
+	background:#000000;  
+	opacity:0.9;  
+	filter:alpha(opacity=90);  
+	position:absolute;  
+	top:0px;  
+	left:0px;  
+	min-width:100%;  
+	min-height:100%;  
+	z-index:1000;  
+}  
+
+
+#lightbox-panel 
+{  
+display:none;  
+position:fixed;  
+top:100px;  
+left:50%;  
+margin-left:-200px;  
+width:400px;  
+background:#FFFFFF;  
+padding:10px 15px 10px 15px;  
+border:2px solid #CCCCCC;  
+z-index:1001;  
+}  
+/*
+     FILE ARCHIVED ON 13:17:52 Aug 24, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:18:10 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 59.287 (3)
+  exclusion.robots.policy: 0.2
+  esindex: 0.015
+  load_resource: 98.272
+  CDXLines.iter: 23.859 (3)
+  RedisCDXSource: 5.021
+  captures_list: 92.411
+  exclusion.robots: 0.214
+  PetaboxLoader3.resolve: 50.182
+  PetaboxLoader3.datanode: 91.275 (4)
+*/

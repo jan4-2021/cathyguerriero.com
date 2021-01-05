@@ -1,0 +1,234 @@
+/*-----------------------------------------------*/
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	margin:0;
+	padding:0;
+}
+img{margin:0;padding:0;border:none; }
+ul,ol{ margin:0;padding:0;}
+ul li{ list-style:none;list-style-postion:inline;}
+ul li a{text-decoration:none;border:none;}
+h2,h3,h3,h4,h5{margin:0;padding:0;}
+
+body{
+	font-family:arial, sans-serif, Osaka, verdana;
+	background:#f8efcb;
+	color:#333;
+}
+
+a{
+	color:#007fe1;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0066ff;
+	text-decoration:underline;
+}
+
+
+/*-----------------------------------------------*/
+#site-wrap{
+	width:900px;
+	margin:0 auto;
+	padding:0px;
+	background:#fff;
+	border:5px solid #bc7d29;
+}
+
+/*title_1st*/
+#title_1st{
+	width:900px;
+	margin:0 auto;
+	padding:0;
+	background:url('/web/20141219151100im_/http://cathyguerriero.com/img/head_h1.gif') no-repeat top center;
+}
+
+h1 a{
+	height:140px;
+	padding:0;
+	display:block;
+}
+h1 a span{
+	display:none;
+	}
+
+/*sidebar*/
+#sidebar{
+	float:right;
+	width:260px;
+	margin:0;
+	padding:16px 16px 0 0;
+	font-size:13px;
+	color:#000;
+}
+
+	.sidebar_link {
+		padding:0;
+	}
+
+	.sidebar_link ul{
+		padding:20px 8px 20px 8px;
+	}
+	
+	.sidebar_link ul li{
+		margin-bottom:10px;
+		padding:10px;
+		line-height:220%;
+		border-top:3px solid #ead28f;
+ }
+	.sidebar_link ul li a{
+		background:#fff;
+	}
+
+#sub_menubox{
+	margin:0;
+		padding:0;
+}
+
+	#sub_menubox ul {
+		margin:0;
+		padding:60px 0 10px 0px;
+		background:url(/web/20141219151100im_/http://cathyguerriero.com/img/menu_top.gif) no-repeat top left;
+	}
+	
+	#sub_menubox li{
+		margin:0 0 2px 0;
+		padding:4px;
+		background:#f5cd3e;
+		line-height:180%;
+	}
+	#sub_menubox li a{
+		display:block;
+		padding:3px 5px 3px 10px;
+		border-left:5px solid #fff;
+		text-decoration:none;
+	}
+	
+	#sub_menubox li a:hover{
+		display:block;
+		padding:3px 5px 3px 10px;
+		border-left:10px solid #fff;
+		text-decoration:underline;
+	}
+
+/*con*/
+#lead_block{
+	float:left;
+	width:560px;
+	padding:32px 0px 10px 16px;
+	font-size:14px;
+}
+
+#h_in_box{
+	padding:16px 8px;
+}
+
+
+#h_in_box h2{
+	margin:20px 0 10px 0;
+	padding:5px 15px 5px 44px;
+	background:url(/web/20141219151100im_/http://cathyguerriero.com/img/h2.gif) no-repeat top left;
+	border-bottom:dashed #999 1px;
+	line-height:160%;
+	font-size:22px;
+	color:#990000;	
+	letter-spacing:2px; 
+	
+}
+/*h2con*/
+.h_in_box_text{
+	padding:0;
+	line-height:200%;
+}
+
+
+#h_in_box h3{
+	margin:15px 0;
+	padding:0px 15px 5px 10px;
+	line-height:160%;
+	font-size:18px;
+	color:#663300;
+}
+
+/*h3con*/
+#h_in_box ul.info{
+	padding:0;
+	font-size:14px;
+}
+
+#h_in_box ul.info li{
+	padding:0 10px;
+	line-height:200%;
+}
+
+#clearbox{
+	clear:both;
+}
+
+.buttonbox_s{
+	padding:40px 10px 10px 10px;
+	margin:0px 0;
+	background: url(/web/20141219151100im_/http://cathyguerriero.com/img/menu_s.gif) no-repeat top left;
+}
+
+.buttonbox{
+	text-align:center;
+	padding:5px 10px;
+	font-size:12px;
+}
+.buttonbox2{
+	text-align:right;
+	padding:5px 10px;
+	font-size:12px;
+	border-bottom:1px dashed #ccc;
+}
+.clb{
+		clear:both;
+}
+
+/*-- footnavi --*/
+#footnavi{
+	margin:0;
+	padding:24px 0 0 0;
+	line-height:140%;
+	font-size:12px;
+}
+
+#footnavi ul{
+	padding:7px 10px;
+	text-align:left;
+}
+
+#footnavi ul li a{
+	text-decoration:underline;
+	background-color:#fff;
+}
+#footnavi div{
+	text-align:right;
+}
+/*
+     FILE ARCHIVED ON 15:11:00 Dec 19, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:11:35 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 177.14
+  exclusion.robots: 0.101
+  exclusion.robots.policy: 0.093
+  RedisCDXSource: 2.366
+  esindex: 0.008
+  LoadShardBlock: 156.572 (3)
+  PetaboxLoader3.resolve: 173.362 (4)
+  PetaboxLoader3.datanode: 105.432 (4)
+  CDXLines.iter: 15.982 (3)
+  load_resource: 147.601
+*/
